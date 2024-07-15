@@ -1,0 +1,14 @@
+/*//function overloading  and function overriding
+
+//overloading when a class have function with same name is called overloading
+
+//polymorphism --means many forms , now the  compiler has to decide which function is  to be executed at the tym of compilation, is deciding process is called polymorphism
+
+//overriding happen in a parent and child class, here both the classes have function with same name in both class , here the child one which have the new function will work acc to what is being called by the main class
+
+//for example a car is working on shift type to change the gear now in the new model we have feature of previous one but now if we have new technology why to use previous , so now the new function with same function of gear change with same function name in child will be work , according the preference like which should have new function which to previous 
+
+
+*/
+
+
