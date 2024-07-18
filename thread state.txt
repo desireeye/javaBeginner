@@ -1,0 +1,29 @@
+thread state
+--new thread
+
+in this state only start and stop works only , other wise illegal thread exception
+
+--runnable
+it call run method
+
+--not runnable(it stop for some reasons like for input )
+
+---- when two people concurrently withdraw money the mone will in minus due to in syncronisation, to avoid it we use synchronize keyword
+
+switching to not runnable to  runnable-
+ if a thread get suspends and 
+a--resume() function is called or invoked then this situation could happen
+
+b--if notify() or notifyAll()
+
+--dead
+when run method call stop()
+
+=========================thread priority
+--setPriority()
+--getPriority()-know what is the priority
+
+--we can use a predefined static variable  MIN_PRIORITY() to give less priority,0 is lowest priority
+ MIN_PRIORITY(0) 
+ NORM_PRIORITY(5) 
+ MAX_PRIORITY(10) 
